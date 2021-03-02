@@ -6,13 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   const [todos, setTodos] = useState([
     {
-      todo: 'This is my first todo',
+      text: 'This is my first todo',
       isDone: false
     }
   ])
 
-  const addTodo = todo => {
-    const newTodos = [...todos, { todo }]
+  const addTodo = text => {
+    const newTodos = [...todos, { text }]
     setTodos(newTodos)
   }
 
