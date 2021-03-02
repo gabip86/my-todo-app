@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import './App.css'
-import { Button, Card, Form } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Todo from './components/Todo'
+import FormTodo from './components/FormTodo'
 
 function App() {
   const [todos, setTodos] = useState([
-    {
-      text: 'This is my first todo',
-      isDone: false
-    }
+    // {
+    //   text: 'This is my first todo',
+    //   isDone: false
+    // }
   ])
 
   const addTodo = text => {
