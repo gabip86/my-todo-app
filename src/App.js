@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 import { Button, Card, Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Todo from './components/Todo'
 
 function App() {
   const [todos, setTodos] = useState([
